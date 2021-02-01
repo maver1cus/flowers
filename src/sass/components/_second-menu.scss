@@ -1,0 +1,17 @@
+.second-menu__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.second-menu__item {
+    padding: 0 25px;
+}
+
+.second-menu__link {
+    font-family: Forum;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}

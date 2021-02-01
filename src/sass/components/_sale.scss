@@ -1,0 +1,26 @@
+.sale {
+
+}
+
+.sale__wrapper {
+    max-width: 1215px;
+    margin: 0 auto 170px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale__content {
+    width: 352px;
+}
+
+.sale__title {
+    margin-bottom: 40px;
+}
+
+.sale__description {
+    font-family: Forum;
+    font-size: 14px;
+    line-height: 170%;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}

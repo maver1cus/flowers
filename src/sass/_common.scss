@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3B181E;
+    min-height: 200vh;
+}
+
+.out {
+    overflow: hidden;
+}
+
+.btn {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #FFFFFF;
+    padding: 18px 30px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    &:hover {
+        background-color: #fff;
+        border-color: #fff;
+        color: #000;
+        cursor: pointer;
+    }
+
+    &--dark {
+        background: #010001;
+        border-color: #010001;
+    }
+
+    &--transparent {
+        background-color: transparent;
+        border-color: #FFFFFF;
+    }
+}
+
+.title {
+    position: relative;
+    font-family: Forum;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    &:before {
+        content: '';
+        display: block;
+        width: 85px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        bottom: -22px;
+        left: 0;
+    }
+}

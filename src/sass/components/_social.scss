@@ -1,0 +1,40 @@
+.social {
+    margin: -12px 0;
+
+    &--horizontally {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 -25px;
+
+        .social__item {
+            padding: 0 25px;
+        }
+    }
+
+    @include r(768) {
+        display: flex;
+    }
+}
+
+.social__item {
+    padding: 12px 0;
+
+    @include r(768) {
+        padding: 0 40px;
+    }
+}
+
+.social__link {
+    width: 25px;
+
+    @include r(768) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55px;
+        height: 55px;
+        background: #3B181E;
+        border-radius: 50%;
+    }
+}
